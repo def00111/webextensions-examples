@@ -12,7 +12,7 @@ function listener(details) {
     filter.disconnect();
   }
 
-  return {};
+  return;
 }
 
 browser.webRequest.onBeforeRequest.addListener(
